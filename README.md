@@ -51,6 +51,18 @@ Version 1.0 goal:
 -login and log out
 -mutiple accounts.
 
+
+## Changes
+
+If you did some changes to this project please inform us here
+
+https://docs.google.com/forms/d/e/1FAIpQLSfDCIKNLxg-ptxvujWiDnVGKrSHIZc-5DLGeZ-q8MGHn-T2nw/viewform?usp=sf_link#responses
+
+So everybody can follow up changes and get into this project later.
+
+To see the responses and learn how to do it read the changeguide.md
+
+
 ## Design
 
 I refer to our Style Guide so you need what you have to do:
