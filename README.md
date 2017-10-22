@@ -14,6 +14,10 @@ If you have some awesome ideas what we can change and/or add please tell use in 
 
 The finished website should look like a mix out of medium.com and the finished version of "Web Design in 4 minutes" (Image in the example section)
 
+##Sending Feedback
+
+We are always open to your feedback.
+Just visit our Discord server.
 ---------
 
 Its developed by the Devvit community. 
@@ -60,7 +64,23 @@ https://docs.google.com/forms/d/e/1FAIpQLSfDCIKNLxg-ptxvujWiDnVGKrSHIZc-5DLGeZ-q
 
 So everybody can follow up changes and get into this project later.
 
-To see the responses and learn how to do it read the changeguide.md
+If you finished the "poll" you can the the results here:
+https://docs.google.com/spreadsheets/d/1VhuhjgItTzO-meL4nuZW4cXlZavjo70UouMy7raW72c/edit#gid=1034956758
+
+
+2.3.5-0041
+│ │ │  └────── build number
+│ │ └───────── patch level
+│ └─────────── minor release
+└───────────── major release
+
+The major release is a big change like a new library or complete rewrite or the first complete release when the software is
+out of the early-access build.
+The minor release is just a new feature.
+The patch level is the build after little changes like bug fixes.
+The build number starts at 0001 and increases after every merge. (1 merge = +1).
+
+We will publish patch notes after every new release so you know what is new.
 
 
 ## Design
