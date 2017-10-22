@@ -68,11 +68,11 @@ If you finished the "poll" you can the the results here:
 https://docs.google.com/spreadsheets/d/1VhuhjgItTzO-meL4nuZW4cXlZavjo70UouMy7raW72c/edit#gid=1034956758
 
 
-2.3.5-0041
-│ │ │  └────── build number
-│ │ └───────── patch level
-│ └─────────── minor release
-└───────────── major release
+2.3.5-0041<br />
+│ │ │  └────── build number<br />
+│ │ └───────── patch level<br />
+│ └─────────── minor release<br />
+└───────────── major release<br />
 
 The major release is a big change like a new library or complete rewrite or the first complete release when the software is
 out of the early-access build.
