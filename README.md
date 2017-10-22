@@ -69,6 +69,12 @@ I refer to our Style Guide so you need what you have to do:
 
 General Organization Style guide here --> https://goo.gl/Ukb5DH
 
+I created a first mockup of the final website.
+This is just a summary of a bunch of idea from different people.
+
+![mockup](https://vgy.me/XpvqPJ.png)
+
+
 ## Examples
 
 typo3
