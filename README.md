@@ -1,6 +1,6 @@
 # CMS
 
-This is a basic conent managment system.
+This is a basic content managment system.
 With this system you can change the basic elements of a static website
 
 It should look like typo3 without that much features. We can and we will add more features later.
@@ -28,7 +28,7 @@ If you want to help us with this project and contribute with a bit of code or el
 
 ## Project Goals
 
-Devvit.io is a project from and with volunteers that want so learn how to code. As a single developer or in a big team. The goal is to practice your development skills whether you are a professional with years of expierence or a beginner. Like said in the other repos 
+Devvit.io is a project from and with volunteers that want to learn how to code. As a single developer or in a big team. The goal is to practice your development skills whether you are a professional with years of expierence or a beginner. Like said in the other repos 
 we try to act as transparent and clear as possible but owing to skill differences we may not use the optimal set of software.
 
 ## Contributing
