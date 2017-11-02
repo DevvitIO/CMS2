@@ -96,7 +96,7 @@ This is just a summary of a bunch of idea from different people.
 
 Our front-front-end site is finished and looks like this:
 
-![front-front-end](https://imgur.com/a/9iTv9)
+![front-front-end](https://i.imgur.com/oNPOGW6.png)
 
 
 
