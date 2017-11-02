@@ -94,6 +94,12 @@ This is just a summary of a bunch of idea from different people.
 
 ![mockup](https://vgy.me/XpvqPJ.png)
 
+Our front-front-end site is finished and looks like this:
+
+![front-front-end](https://imgur.com/a/9iTv9)
+
+
+
 
 ## Examples
 
