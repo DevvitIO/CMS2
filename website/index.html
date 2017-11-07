@@ -1,5 +1,13 @@
+<?php
+include_once "connections/db.php";
+// if(!$user->is_logged()){
+//     User is indeed logged in
+// } else{
+//     $user->redirect("register.php"); This isn't really needed for index page.
+// }
+// $user_id = $_SESSION['user_session'];
+?>
 <!DOCTYPE HTML>
-
 <html lang=en>
     <head>
         <meta charset="utf-8">
@@ -13,8 +21,8 @@
                 <div class="logo"><a href="#">Devvit <span class="logo-io">.io</span></a></div>
                 <div class="tagline">SOME. TAGLINE. HERE.</div>
                 <ul class="authorization">
-                    <li><a href="#">Sign in</a></li>
-                    <li><a href="">Register</a></li>
+                    <li><a href="signup.php">Sign in</a></li>
+                    <li><a href="signup.php">Register</a></li>
                 </ul>
             </header>
 
