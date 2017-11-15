@@ -1,10 +1,13 @@
 <?php
 include_once 'connections/db.php';
-if($user->is_loggedin())
+if(!$user->is_loggedin())
 {
- $user->redirect('home.php');
+ $user->redirect('index.php');
 }
-
+$user_id = $_SESSION['user_session'];
+$stmt = $db_con->prepare("SELECT * FROM users WHERE username=:user_id");
+$stmt->execute(array(":user_id"=>$user_id));
+$userRow=$stmt->fetch(PDO::FETCH_ASSOC);
 ?>
 <!DOCTYPE HTML>
 <html lang=en>
@@ -17,11 +20,10 @@ if($user->is_loggedin())
     <body>
         <div class="wrapper">
             <header class="header-top">
-                <div class="logo">Devvit <a href="index.php"><span class="logo-io">.io</span></a></div>
-                <div class="tagline">SOME. TAGLINE. HERE.</div>
+                <div class="logo"><a href="#">Devvit <span class="logo-io">.io</span></a></div>
+                <div class="tagline"><div class="tagline">Welcome : <?php echo $userRow['username'];  ?></div></div>
                 <ul class="authorization">
-                    <a href="signup.php"><li>Sign in</li></a>
-                    <a href="signup.php"><li>Register</li></a>
+                    <a href="logout.php"><li>Logout</li></a>
                 </ul>
             </header>
 
