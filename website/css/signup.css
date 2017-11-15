@@ -62,24 +62,28 @@
 
 .signup-form {
 	padding: 0 93px;
-	margin: 55px 0;
+	margin-top: 55px;
 }
 
-.signup-form input,
+.signup-form-disabled {
+	display: none;
+}
+
+.signup-form-input,
 .signup-form-submit-btn {
 	padding: 20px;
 	width: 100%;
 	font-weight: 500;
 }
 
-.signup-form input {
+.signup-form-input {
 	font-size: 12px;
 	letter-spacing: 3px;
 	color: #454647;
 	margin-bottom: 23px;
 }
 
-.signup-form input::placeholder {
+.signup-form-input::placeholder {
 	text-align: center;
 	color: rgba(69, 70, 71, 0.5);
 }
@@ -89,12 +93,15 @@
 	text-transform: uppercase;
 	font-size: 14px;
 	color: #fff;
+	cursor: pointer;
 }
 
 .signup-terms {
+	margin-top: 55px;
 	font-size: 12px;
 	color: #fff;
 	text-align: center;
+	display: none;
 }
 
 .terms-link {
