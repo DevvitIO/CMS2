@@ -37,6 +37,22 @@ a:hover {
 	color: #fff;
 }
 
+.log-out{
+	display: block;
+	color: #fff;
+	padding: 0 15px;
+}
+.log-out i{
+	display: block; 
+	margin-right: 5px;
+}
+.log-out span{
+	margin-left: 10px;
+}
+.log-out:hover{
+	border-bottom: 3px solid #00c8c8;
+}
+
 .logo {
 	font-size: 24px;
 	letter-spacing: 2px;
